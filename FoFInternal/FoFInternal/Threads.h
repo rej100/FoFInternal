@@ -93,7 +93,7 @@ namespace Threads
 					distx = distx / 25;
 					disty = disty / 25;
 
-					cgdi->DrawFilledRect(140 + distx, 140 + disty, 10, 10, redBrush);
+					cgdi->DrawFilledRect(140 + disty, 140 + distx, 10, 10, redBrush);
 				}
 			}
 		}
