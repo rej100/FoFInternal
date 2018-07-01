@@ -22,5 +22,8 @@ namespace Offsets
 	extern std::vector <Entity>entityArray;
 	extern Entity localPlayer;
 
+	extern float localPlayerPitch_t;
+	extern float localPlayerYaw_t;
+
 	extern void Initialize();
 }

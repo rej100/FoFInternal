@@ -25,6 +25,9 @@ namespace Offsets
 	vector <Entity>entityArray;
 	Entity localPlayer;
 	
+	extern float localPlayerPitch_t = 0;
+	extern float localPlayerYaw_t = 0;
+
 	void Initialize()
 	{
 		clientAddr = (DWORD)GetModuleHandle("client.dll");
